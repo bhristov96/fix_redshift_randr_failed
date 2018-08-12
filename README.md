@@ -1,4 +1,4 @@
-# fix_redshift_randr_not_found
+# How to fix Redshift not working on Debian
 This is how to fix Redshift in Debian by disabling Wayland. 
 
 This is done with the editor nano, you can accomplish this with any editor.
