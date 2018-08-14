@@ -13,6 +13,7 @@ A fast way to reboot is to type 'poweroff --r' in the terminal
 
 I am working on a way to have a single command to do that in order to simplify the process. My current idea is to do the following:
 sed -i -e 's/# WaylandEnable=false/WaylandEnable=false/g' /etc/gdm3/daemon.conf
+
 sed -i -e 's/#WaylandEnable=false/WaylandEnable=false/g' /etc/gdm3/daemon.conf
 
 These two lines of code should handle all possibilities of WaylandEnable being commented out
